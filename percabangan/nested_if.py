@@ -17,13 +17,15 @@ nilai = float(input("Masukkan nilai anda : "))
 #                     print("Anda tidak lulus")
 
 # cara lebih cepat
-if nilai >=90:
+if nilai >=90 and nilai <= 100:
     print("Grade A")
-elif nilai >=80:
+elif nilai >=80 and nilai < 90:
     print("Grade B")
-elif nilai >=70:
+elif nilai >=70 and nilai < 80:
     print("Grade C")
-elif nilai >=60:
+elif nilai >=60 and nilai < 70:
     print("Grade D")
+elif nilai >=0 and nilai <50:
+    print("Tidak Lulus")
 else:
-    print("Anda tidak lulus!")
+    print("invalid input!")
