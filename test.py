@@ -1,7 +1,7 @@
 # macam - macam tipe data 
 
 #1. Number -> int,float,complex
-print ("selamat datang di itec") #disebelah ini string
+print ("selamat datang di itecc") #disebelah ini string
 print (10)
 jumlah = 10 + 5
 print("10+5=",jumlah)
