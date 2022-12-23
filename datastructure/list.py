@@ -1,3 +1,6 @@
+import copy
+
+
 campur = ["sobri",12,True,3.14]
 print(f"list : {campur}")
 print()
@@ -88,3 +91,19 @@ print()
 
 # menghitung jumlah item yang sama menggunakan method count
 print(f"Jumlah jeruk : {buah.count('jeruk')}")
+print()
+
+# copy isi variabel
+buah_buahan = buah.copy()
+print(f"Buah - buahan : {buah_buahan}")
+print()
+
+# array di dalam array 
+matrix = [
+    [1,2,3,4,5,6],
+    [7,8,9,10,11],
+    [12,13,14,15,16]
+]
+print(matrix[1][3])
+matrix[1][4] = 20
+print(f"Matrix baru : {matrix}")
