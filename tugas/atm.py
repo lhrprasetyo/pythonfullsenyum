@@ -11,4 +11,6 @@ while jawab == "ya":
             if trial ==3 :
                 print ("Anda telah mencoba sebanyak 3 kali, maaf kartu anda tertelan")
                 break
+            else :
+                print("Kartu anda keluar")
     
