@@ -1,5 +1,5 @@
-kata = input("masukkan kata : ")
 A=[]
+kata = input("masukkan kata : ")
 for k in kata:
     A.append(k)
 A.reverse()

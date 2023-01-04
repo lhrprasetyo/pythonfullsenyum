@@ -9,4 +9,3 @@ for i in text :
         txt.upper
     out.append(txt)
 print("".join(out))
-

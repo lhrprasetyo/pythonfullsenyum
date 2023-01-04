@@ -1,5 +1,4 @@
 ayam = 25000
-
 print("---Ayam potong pak de---")
 print("Harga ayam 1 kg = ", ayam)
 print()
