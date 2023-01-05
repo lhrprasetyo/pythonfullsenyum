@@ -15,7 +15,7 @@ class Paus(Mamalia):
         self.jenis_paus= None
 
     def berenang(self):
-        print('paus berenang')
+        print('paus berenang kan')
     def makan(self):
         print('paus makan plankton')
     def desc(self):
