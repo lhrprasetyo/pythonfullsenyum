@@ -13,6 +13,7 @@ class Konversi:
     def satuan_ke_kodi(n):
         return n/20
     
+    
     @staticmethod
     def satuan_ke_rim(n):
         return n/500
@@ -37,3 +38,5 @@ class Mahasiswa:
 
 d = Mahasiswa(input("nama mahasiswa : "))
 print(d.hurufBesar(d.getNama()))
+
+print(d.hurufBesar(d.nama))

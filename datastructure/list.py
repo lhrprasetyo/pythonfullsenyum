@@ -107,3 +107,23 @@ matrix = [
 print(matrix[1][3])
 matrix[1][4] = 20
 print(f"Matrix baru : {matrix}")
+
+
+# bonus materi :
+mylist = [1,2,3,4,5]
+myCopy = list(mylist)
+# or
+mycops = mylist[:]
+
+# tricks for new list:
+
+secondList = [i*i for i in mylist]
+
+mylist.append(6)
+print (f"Ini merupakan list awal {mylist}")
+print()
+print (f"Ini merupakan list copy metode 1 {myCopy}")
+print()
+print (f"Ini merupakan list copy metode 2 {mycops}")
+print()
+print(f"membuat list menggunakna loop(jadi pangkat 2 atau dikalikan dengan diri sendiri sesuai kebutuhan){secondList}")

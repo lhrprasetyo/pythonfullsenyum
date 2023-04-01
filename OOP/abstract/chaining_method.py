@@ -1,4 +1,4 @@
-# chaining method (bethod berantai)
+# chaining method (method berantai)
 
 class Warteg():
     def __init__(self) :

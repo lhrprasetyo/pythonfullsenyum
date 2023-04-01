@@ -5,14 +5,21 @@ class Paus():
         self.mangsa = mangsa
 
     def makan(self):
-        print(f"Paus makan {self.mangsa}")
+        return (f"Paus makan {self.mangsa}")
 
 class Harimau():
     def __init__(self,mangsa) -> None:
         self.mangsa = mangsa
 
     def makan(self):
-        print(f"Harimau makan {self.mangsa}")
+        return (f"Harimau makan {self.mangsa}")
+
+class Kambing():
+    def __init__(self,mangsa) -> None:
+        self.mangsa = mangsa
+
+    def makan(self):
+        return (f"Kambing makan {self.mangsa}")
         
 
 
@@ -20,3 +27,8 @@ p = Paus("cumi")
 p.makan()
 h = Harimau("rusa")
 h.makan()
+k = Kambing("daun")
+k.makan()
+
+for a in [p,h,k]:
+    print(a.makan())
